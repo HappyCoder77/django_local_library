@@ -32,7 +32,9 @@ SECRET_KEY = os.environ.get(
 DEBUG = True
 # DEBUG = os.environ.get("DJANGO_DEBUG = True")
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "salty-taiga-01804.herokuapp.com",
+]
 
 
 # Application definition
