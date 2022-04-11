@@ -1,1 +1,1 @@
-web: gunicorn locallibray.wsgi --log-file
+web: gunicorn locallibray.wsgi --log-file -
